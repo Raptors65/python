@@ -1,0 +1,116 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{19, 20}, {162, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "FA7DC6A0-8441-4AC5-851E-1B86D5CAA368",
+          "flex" : "WB",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "action" : "url_finished",
+          "text" : "",
+          "placeholder" : "Enter URL",
+          "font_name" : "<System>",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "name" : "url_bar",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{267, 20}, {32, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 15,
+          "action" : "reload",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "F65597E8-0952-4D3F-82A9-07FF75C6CB8A",
+          "class" : "Button",
+          "name" : "reload_button",
+          "image_name" : "iob:ios7_reload_24"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 67}, {320, 424}}",
+        "class" : "WebView",
+        "attributes" : {
+          "flex" : "WH",
+          "border_width" : 1,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "uuid" : "FEFDFAC3-4DC9-44AA-9462-576544DD5132",
+          "class" : "WebView",
+          "scales_to_fit" : true,
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "web_view"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{187, 20}, {32, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "name" : "back_button",
+          "flex" : "LB",
+          "action" : "go_back",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "C937E76D-78F5-4A44-B33A-82FDBFB91B61",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:ios7_arrow_back_24"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{227, 20}, {32, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "flex" : "LB",
+          "action" : "go_forward",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "BF2D31BC-881C-46C1-AB50-940D13DF4FD1",
+          "class" : "Button",
+          "name" : "forward_button",
+          "image_name" : "iob:ios7_arrow_forward_24"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Web Browser",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

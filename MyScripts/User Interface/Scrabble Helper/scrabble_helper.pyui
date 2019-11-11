@@ -1,0 +1,120 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {320, 104}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "0E22C800-AC77-4031-A321-7A1B0DEFB27A",
+          "font_size" : 17,
+          "corner_radius" : 0,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : false,
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "words_output",
+          "flex" : "WHLR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 190}, {129, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "action" : "find_words",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Get Valid Words",
+          "uuid" : "A720EAD0-A70F-4ACF-8C45-71389546D91B",
+          "class" : "Button",
+          "name" : "valid_words_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 150}, {308, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "9A07C7C8-156D-4437-8621-53DCE80190EC",
+          "flex" : "WLRT",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "action" : "",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "placeholder" : "Usable Letters",
+          "font_name" : "<System>",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "name" : "characters",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{253, 190}, {61, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "clear_field",
+          "flex" : "LT",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Clear",
+          "uuid" : "C3BB2ABA-3817-41C3-8DC6-F0077A44AC09",
+          "class" : "Button",
+          "name" : "clear_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 110}, {308, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "Placed Characters",
+          "flex" : "WLRT",
+          "font_size" : 17,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "uuid" : "6AD4427F-09AD-41CB-96DF-A121BC2EC68D",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "name" : "placed_characters",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "Helper",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
